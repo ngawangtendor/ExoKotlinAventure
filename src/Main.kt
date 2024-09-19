@@ -1,5 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
+fun calculDefenseTotal(defense : Int, typeArmure : Int, qualite : Int): Int{
 
-    }
+    val total = defense + typeArmure + qualite
+    return total
+}
+
+fun main() {
+    println(calculDefenseTotal(3,2,1))
+
+}
